@@ -1,0 +1,32 @@
+// SUBMITTED BY Sankalp Pandey
+//Bsc(H) Physics
+// Roll no-19/BHP/021
+// PROGRAME FOR GREATEST OF THREE NUMBERS
+
+
+#include <iostream>6
+using namespace std;
+int main()
+{    
+    float a1, a2, a3;
+    cout<<"give the value of a1  ";
+    cin>>a1;
+    
+    cout<<"give the value of a2  ";
+    cin>>a2;
+    cout<< "give the value of a3  ";
+    cin>>a3;
+    
+    if(a1 > a2 && a1 > a3)
+    {
+        cout << "Largest number: " << a1;
+    }
+    if(a2 > a1 && a2 >  a3)
+    {
+        cout << "Largest number: " << a2;
+    }
+    if(a3 > a1 && a3 >= a2) {
+        cout << "Largest number is  " << a3;
+    }
+    return 0;
+}
